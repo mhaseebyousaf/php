@@ -1,0 +1,15 @@
+.products-hover-icons i{
+    color: blue;
+    font-size: 25px;
+}
+
+.product-view-btn{
+    color: red;
+    text-decoration: none;
+}
+.header-icon-size{
+    font-size: 1.4rem;
+}
+.owl-buttons .owl-prev,.owl-buttons .owl-next{
+    background-color: #007BFF !important;
+}

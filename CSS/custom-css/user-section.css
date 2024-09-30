@@ -1,0 +1,319 @@
+/* General */
+*{
+    margin: 0px;
+}
+.no-product{
+    background-color: rgb(215, 215, 215);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+/* Header */
+.dropdown-menu{
+    padding: 0 !important;
+    border: 1px solid black;
+}
+.dropdown-item{
+    box-shadow: 1px 1px 5px #007BFF;
+}
+.dropdown-item:hover{
+    background-color: #007BFF !important;
+    color: white !important;
+    border: 1px solid black;
+}
+.nav-item{
+    position: relative;
+}
+.nav-item span{
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    height: fit-content;
+    width: fit-content;
+    font-size: 8px;
+    font-weight: 700;
+    padding: 1px 4px;
+    position: absolute;
+    top: 2px;
+    right: 1px;
+}
+
+/* Login */
+#login-register-btn{
+    text-decoration: none;
+    color: #007BFF;
+}
+#login-message{
+    width: 55%;
+}
+/* Heading  */
+.section-name-heading span{
+    border-bottom: 2px dashed rgb(177, 177, 177);
+    padding-bottom: 10px;
+}
+
+
+/* index page styling */
+
+.header-top-bar .navbar{
+    background-color: transparent;
+}
+#user-header-search-box{
+    width: 300px;
+    outline: 0;
+    border: 1px solid #007BFF;
+}
+#user-header-search-prepend{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-left: 1px solid #007BFF;
+    border-top: 1px solid #007BFF;
+    border-bottom: 1px solid #007BFF;
+}
+#user-header-search-text{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+
+#header-categories-section-collapse .navbar-nav .nav-item{
+    border-radius: 15px;
+    color: white !important;
+}
+#header-categories-section-collapse .navbar-nav .nav-item .nav-link:hover{
+    background-color: rgb(102, 167, 240);
+    color: white !important;
+}
+#header-carousel img{
+    width: 100% !important;
+    height: 40% !important;
+}
+.class-title h5{
+    font-size: 17px;
+}
+.card-subtitle{
+    margin-top: 5px;
+}
+.card-subtitle h6{
+    font-size: 15px;
+    color: #007BFF !important;
+}
+.card-text p{
+    font-size: 12px;
+}
+
+/* Register Page */
+#register-outer-main-container{
+    height: 100%;
+    width: 100vw;
+}
+#register-user{
+    background-color: rgb(215, 215, 215);
+}
+.register-submit-btn{
+    padding: 7px 10px 7px 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Modify Profile */
+#modify-profile-outer-main-container{
+    height: min-content;
+    width: 100vw;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#modify-profile{
+    background-color: rgb(215, 215, 215);
+}
+.modify-profile-btn{
+    padding: 7px 10px 7px 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* My Orders */
+.in-process{
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+    font-size: small;
+    display: inline-block;
+    padding: 0 5px 0 5px;
+}
+.order-completed{
+    background-color: green;
+    color: white;
+    border: 1px solid black;
+    font-size: small;
+    display: inline-block;
+    padding: 0 5px 0 5px;
+}
+
+/* Change Password */
+#change-password-outer-main-container{
+    height: 100vh;
+    width: 100vw;
+    padding-top: 50px;
+}
+
+#change-password-heading{
+    background-color: rgb(215, 215, 215);
+}
+.update-password-btn{
+    padding: 7px 10px 7px 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Products Section  */
+/* Popular Products */
+
+.user-products-hower{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #007bff49;
+}
+.products-hover-icons{
+    width: fit-content;
+}
+.products-card{
+    overflow: hidden;
+}
+.products-card:hover .user-products-hower {
+    
+    position: absolute;
+    top: 0%;
+    transition: all 1.25s;
+}
+.product-btn{
+    display: block;
+    background-color: rgba(255, 255, 255, 0.624);
+    padding: 8px;
+    border-radius: 30px;
+    margin: 5px;
+    outline: 0;
+    border: 0;
+}
+.product-btn i{
+    font-size: 20px !important;
+}
+.product-btn:hover{
+    background-color: white;
+}
+
+
+/* Wishlist */
+.no-products-added-slide{
+    border:1px solid black;
+    border-radius: 15px;
+    background-color: rgb(232, 232, 232);
+}
+.no-products-added-slide p{
+    padding: 10px;
+    margin: 0;
+}
+.wishlist-product-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wishlist-product-info p{
+    margin: 0 !important;
+}
+.wishlist-product-name{
+    margin: auto;
+    display: block;
+}
+
+
+/* Footer  */
+.footer-menu-1 h5,.footer-menu-2 h5{
+    display: block;
+    width: fit-content !important;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+.footer-menu-2 ul,.footer-menu-3 ul{
+    list-style: none;
+    padding: 0;
+}
+.footer-menu-2 ul li a,.footer-menu-3 ul li a{
+    color: white;
+    border-bottom: 1px solid white;
+    display: block;
+    width: fit-content;
+    padding-bottom: 3px;
+    margin-bottom: 5px;
+}
+.footer-menu-2 ul li a:hover,.footer-menu-3 ul li a:hover{
+    text-decoration: none;
+    border-bottom: 3px solid white;
+}
+
+/* Owl carousel */
+.owl-pagination .owl-page span{
+    background-color: #007BFF !important;
+}
+
+
+/* Single Product */
+#single-product-image-box img{
+    width: 100%;
+}
+#single-product-product-title h2{
+    font-size: 1.7rem;
+}
+#single-product-price h4{
+    font-weight: 700;
+}
+
+
+/* Cart */
+.cart-single-product-price{
+    width: 70px;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+}
+#cart-total-price{
+    border: 0;
+    outline: 0;
+}
+
+/* Single Product  */
+#single-product-side-images{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.single-product-side-image-box{
+    width: 100%;
+    margin: 10px 0;
+}
+.single-product-side-image-box img{
+    width: 100%;
+    
+}
